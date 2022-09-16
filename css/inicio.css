@@ -1,6 +1,6 @@
 body {
-    width: 100vw;
-    height: 100vw;
+    width: auto;
+    height: auto;
     background-attachment: fixed;
     background-image: url(../Imagens/gradienta-LeG68PrXA6Y-unsplash.jpg);
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@ body {
 .menu__principal-icone {
     display: flex;
     margin-left: 32.5%;
-    margin-top: 10%;
+    margin-top: 5%;
     padding: 15px;
     width: 50px;
     height: 50px;
@@ -22,5 +22,22 @@ body {
 
 .texto__principal {
     text-align: center;
-    margin-top: 50px;
+}
+
+.texto__principal-inicio {
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    text-transform: uppercase;
+    background-color: #fff;
+    margin-left: 250px;
+    margin-right: 250px;
+    width: 50vm;
+    margin-top: 2%;
+}
+
+.foto__inicio {
+    width: 45%;
+    height: 50%;
+    margin-left: 450px;
 }
