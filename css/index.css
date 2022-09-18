@@ -1,0 +1,29 @@
+#texto__principal {
+    text-align: center;
+    display: flex;
+    background-color: rgb(247, 208, 234);
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#texto__principal .img {
+    height: 50vh;
+    opacity: 0;
+    animation: opacidade 2s linear forwards;
+}
+
+#texto__principal h1 {
+    width: 50%;
+    text-align: center;
+}
+
+#texto__principal .img img {
+    height: 50vh;
+}
+
+.nome {
+    font-family: 'Cinzel', serif;
+    font-size: 50px;
+    font-style: italic;
+}
