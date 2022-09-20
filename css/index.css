@@ -97,3 +97,11 @@ section {
         max-height: 100vh
     }
 }
+
+section {
+    display: none;
+}
+
+.active {
+    display: block;
+}
