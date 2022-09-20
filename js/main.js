@@ -13,10 +13,10 @@ for (var i = 0; i < icones.length; i++) {
 }
 
 function toggleTabs(tab) {
-    const collection = document.getElementsByClassName("active");
+    const collection = document.getElementsByClassName("activeTab");
     for (var i = 0; i < collection.length; i++) {
-        collection[i].classList.remove("active");
+        collection[i].classList.remove("activeTab");
     }
     let tabAtiva = document.getElementById(tab)
-    tabAtiva.classList.add("active")
+    tabAtiva.classList.add("activeTab")
 }

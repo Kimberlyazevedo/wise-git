@@ -102,6 +102,6 @@ section {
     display: none;
 }
 
-.active {
+.activeTab {
     display: block;
 }
