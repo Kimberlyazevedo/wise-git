@@ -8,7 +8,7 @@
 body {
     width: auto;
     height: auto;
-    color: #363636;
+    color: #000000;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     background: rgb(255, 49, 133);
     background: linear-gradient(-45deg, rgb(255, 49, 133) 0%, rgb(255, 222, 87) 24%, rgb(198, 226, 215) 39%, rgb(255, 91, 99) 75%, rgb(249, 25, 99) 100%);
@@ -38,12 +38,12 @@ nav.menu__principal ul li img:hover {
 }
 
 nav.menu__principal ul li img.active {
-    filter: drop-shadow(5px 5px 5px #666);
+    filter: drop-shadow(8px 8px 8px #666);
 }
 
 section {
     border-radius: 5px;
-    box-shadow: 0px 0px 10px #0000002b;
+    box-shadow: 0px 0px 12px #0000002b;
 }
 
 #texto__principal .foto img {
@@ -71,19 +71,7 @@ section {
     margin-top: 2%;
     max-height: 0vh;
     overflow: hidden;
-    animation: altura 1s linear forwards 1s;
-}
-
-@media (max-width: 712px) {
-    #texto__principal {
-        flex-direction: column;
-    }
-    .nome {
-        font-size: 5vw;
-    }
-    .texto__principal-inicio {
-        width: 90vw;
-    }
+    animation: altura 0.5s linear forwards 0.5s;
 }
 
 @keyframes opacidade {
@@ -102,6 +90,57 @@ section {
     display: none;
 }
 
-.activeTab {
+section.active {
     display: block;
+}
+
+.titulo__formacao {
+    font-size: 35px;
+    text-align: center;
+}
+
+#formacao p {
+    font-size: 15px;
+}
+
+#formacao h2 {
+    font-size: 25px;
+}
+
+#experiencias h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+#experiencias h2 {
+    font-size: 25px;
+}
+
+#formacao p {
+    font-size: 15px;
+}
+
+#contato h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.icone__contato {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    padding: 15px;
+    margin-left: 27px;
+}
+
+@media (max-width: 712px) {
+    #texto__principal {
+        flex-direction: column;
+    }
+    .nome {
+        font-size: 5vw;
+    }
+    .texto__principal-inicio {
+        width: 90vw;
+    }
 }
