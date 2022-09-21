@@ -126,11 +126,8 @@ section.active {
 }
 
 .icone__contato {
-    width: 80px;
-    height: 80px;
-    display: inline-block;
-    padding: 15px;
-    margin-left: 27px;
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 712px) {
@@ -142,5 +139,10 @@ section.active {
     }
     .texto__principal-inicio {
         width: 90vw;
+    }
+    .icone__contato {
+        width: 30px;
+        height: 30px;
+        justify-content: center;
     }
 }
